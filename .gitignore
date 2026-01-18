@@ -1,0 +1,28 @@
+# Unity 忽略文件模板
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# 临时文件
+*.tmp
+*.userprefs
+
+# 构建文件
+*.apk
+*.app
+*.exe
+*.dmg
+*.unitypackage
+
+# VS 项目文件
+*.csproj
+*.sln
+*.suo
+
+# 确保不忽略 .meta 文件
+!*/**/*.meta
+!/**/*.meta

@@ -1,0 +1,23 @@
+# 创建文件
+touch .gitattributes
+
+# 内容：
+*.unity binary
+*.prefab binary
+*.asset binary
+*.mat binary
+*.fbx binary
+*.blend binary
+*.png binary
+*.jpg binary
+*.wav binary
+*.mp3 binary
+
+# 文本文件使用 LF 换行
+*.cs text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
